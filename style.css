@@ -26,6 +26,9 @@ body{
 
 .apresenta__conteudo{
     width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .apresenta__conteudo__titulo{
@@ -43,3 +46,29 @@ body{
     justify-content: space-between;
 
 }
+
+
+.apresentacao__links__caixa{
+    background-color: #22D4FD;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Inter Tight', sans-serif ;
+    font-weight: bold;
+
+}
+
+.cabeçalho{
+    margin: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+
