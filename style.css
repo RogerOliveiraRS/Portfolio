@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Inter+Tight:wght@200&display=swap');
-
+/* resetando o CSS*/
 *{
     margin: 0;
     padding: 0;
 }
 
 
-
+/* body define propriedades do corpo */
 body{
     height:100vh;
     background-color: rgb(27, 24, 24);
@@ -16,6 +16,7 @@ body{
 /*strong{color: #22D4FD;}*/
 .destacasubtitulo{color: #22D4FD;    
 }
+/*início das classes*/
 .apresentacao{
             margin: 15%;
             display: flex;
@@ -35,4 +36,10 @@ body{
 .apresenta__conteudo__texto{
     font-size: 28px;
     font-family: 'Inter Tight', sans-serif;
+}
+
+.apresentacao__links{
+    display: flex;
+    justify-content: space-between;
+
 }
