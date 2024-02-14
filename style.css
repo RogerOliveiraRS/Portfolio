@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Inter+Tight:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@200;300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 /* resetando o CSS*/
 *{
@@ -17,6 +18,30 @@ body{
     color: #F6F6F6;
     box-sizing: border-box;
 }
+
+
+.cabeçalho{
+    padding-top:  60px;
+    padding-left: 300px;
+    border: 1px;   
+    width: 50%;
+    height: 50px;
+    margin: 10px;
+    background: transparent;
+    
+    align-items: center;
+   
+}
+
+.ajusta__texto__cabeçalho{
+    padding-bottom: 10px;
+    font-family: "DM Serif Display", serif;
+  font-weight: 50;
+  font-style: normal;
+  font-size: 50px;
+}
+
+
 /*strong{color: #22D4FD;}*/
 .destacasubtitulo{color: #22D4FD;    
 }
@@ -44,47 +69,41 @@ body{
 .apresenta__conteudo__texto{
     font-size: 24px;
     font-family: 'Inter Tight', sans-serif;
+    color: #F6F6F6;
 }
 
 .apresentacao__links{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    gap: 32px;
 
 }
 
+.apresentacao__links__subtitulo{
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 27px;
+    font-weight: 35;
+    padding:21.5px 0;
 
+
+
+
+}
 .apresentacao__links__caixa{
-    background-color: #22D4FD;
-    width: 280px;
+    /*background-color: #22D4FD;*/
+    border:2px solid #22D4FD;
+    width: 378px;
     text-align: center;
-    border-radius: 16px;
+    border-radius: 8px;
     font-size: 24px;
     padding: 21.5px 0;
     text-decoration: none;
-    color: #000000;
+    color: #F6F6F6;
     font-family: 'Inter Tight', sans-serif ;
     font-weight: bold;
 
-}
-.cabeçalho{
-    padding-top:  60px;
-    padding-left: 300px;
-    border: 1px;   
-    width: 50%;
-    height: 50px;
-    margin: 10px;
-    background: transparent;
-    
-    align-items: center;
-   
-}
-
-.ajusta__texto__cabeçalho{
-    padding-bottom: 10px;
-    font-size: 44px;
-    font-family: 'Noto Serif', serif;
-    font-weight: 400;
-    font-style: normal;
 }
 
 
