@@ -135,14 +135,18 @@ body{
     background-color: #272727;
     }
 
- .rodape
-    {padding:24px;
-     color:#000000;
-     background-color:#22D4FD;
-     text-align: center;
-     font-family:'Montserrat', sans-serif;
-     font: 28px;
- }   
+ .rodape{
+    padding:24px;
+    color:#000000;
+    background-color:#22D4FD;
+    text-align: center;
+    font-family:'Montserrat', sans-serif;
+    font: 28px;   
+ }
+   
+ .rodape__ancora{
+    margin-left: 50px;
+ }
 
 
 
