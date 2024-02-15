@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@200;300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
 
+:root  {
+    --cor-primaria: #1B1818;
+    --cor-secundaria: #F6F6F6;
+    --cor-terciaria: #22D4FD;
+    --cor-hover: #272727;
+    --fonte-inter: 'Inter Tight', sans-serif;
+    --fonte-Mont: 'Montserrat', sans-serif;
+}
+
 
 
 
@@ -10,17 +19,17 @@
     padding: 0;
 }
 
-
 /* body define propriedades do corpo */
 body{
     /* height:100vh; */
-    background-color: rgb(27, 24, 24);
+    background-color: var(--cor-primaria);
     color: #F6F6F6;
     box-sizing: border-box;
 }
 
 /*strong{color: #22D4FD;}*/
-.destacasubtitulo{color: #22D4FD;    
+.destacasubtitulo{
+    color: #22D4FD;    
 }
 
 /*início das classes*/
@@ -34,16 +43,12 @@ body{
     font-size: 46px;
     color:#F6F6F6;
     font-weight: 200;
-
 }
 
 .cabeçalho__menu{
     display:flex;
     gap: 80px;
  }
-
- 
-
 
 .cabeçalho__menu__link{
     /*padding: 24px 0px 0px 310px;*/
@@ -55,16 +60,10 @@ body{
     display:flex;
     flex-direction: right;
     text-decoration: none;
-    
- 
 }
-
-
-
 
 .apresentacao{
     /* acrescentei o padding e retirei margin para que tudo caiba dentro da tela sem dobra */
-    
             padding:6% 15%;
             display: flex;
             align-items: center;
@@ -96,7 +95,6 @@ body{
     justify-content: space-between;
     align-items: center;
     gap: 32px;
-
 }
 
 .apresentacao__links__subtitulo{
@@ -133,7 +131,7 @@ body{
 
 /*A mesma classe anterior! */
     .apresentacao__links__caixa:hover{
-    background-color: #272727;
+    background-color: var(--cor-hover);
     }
 
  .rodape{
