@@ -6,6 +6,7 @@
     --cor-secundaria: #F6F6F6;
     --cor-terciaria: #22D4FD;
     --cor-hover: #272727;
+
     --fonte-inter: 'Inter Tight', sans-serif;
     --fonte-Mont: 'Montserrat', sans-serif;
 }
@@ -19,6 +20,7 @@
     padding: 0;
 }
 
+
 /* body define propriedades do corpo */
 body{
     /* height:100vh; */
@@ -28,8 +30,7 @@ body{
 }
 
 /*strong{color: #22D4FD;}*/
-.destacasubtitulo{
-    color: #22D4FD;    
+.destacasubtitulo{color: #22D4FD;    
 }
 
 /*início das classes*/
@@ -48,6 +49,7 @@ body{
 .cabeçalho__menu{
     display:flex;
     gap: 80px;
+    padding: 20px 0 0 0
  }
 
 .cabeçalho__menu__link{
