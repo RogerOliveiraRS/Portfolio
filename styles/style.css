@@ -26,12 +26,12 @@ body{
 /*início das classes*/
 
 .cabeçalho{
-    padding:2% 0% 0% 15%;
+    padding:1% 0% 0% 15%;
 }
 
 .titulo__cabeçalho{
     font-family: 'Montserrat', sans-serif;
-    font-size: 50px;
+    font-size: 46px;
     color:#F6F6F6;
     font-weight: 200;
 
@@ -54,6 +54,7 @@ body{
     font-size: 24px;
     display:flex;
     flex-direction: right;
+    text-decoration: none;
     
  
 }
@@ -146,6 +147,7 @@ body{
    
  .rodape__ancora{
     margin-left: 50px;
+    text-decoration: none;
  }
 
 
