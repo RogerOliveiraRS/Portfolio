@@ -70,7 +70,8 @@ body{
 }
 
 .apresenta__conteudo{
-    width: 38.5;
+    /* width: 38.5; */
+    width: 50%; /*50% da seção <main> */
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
@@ -89,6 +90,8 @@ body{
 }
 
 .apresentacao__links{
+    width: 100%;
+    height: 20%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -108,23 +111,45 @@ body{
     margin-right: 1.25rem;
 }
 
-.apresentacao__links__caixa{
-    border:0.125rem solid #22D4FD;
-    width: 23.625rem;
-    text-align: center;
-    border-radius: 0.5rem;
-    font-size: 1.5rem;
-    padding: 1.344rem 0;
-    text-decoration: none;
-    color: #F6F6F6;
-    font-family: 'Inter Tight', sans-serif ;
-    font-weight: bold;
-    vertical-align: middle; 
-}
+.apresentacao__links__txt__caixa{
+        /*display: flex;
+        justify-content: center;
+        gap: 16px;
+        border: 2px solid var(--cor-terciaria);
+        width: 50%;
+        text-align: center;
+        border-radius: 8px;
+        font-size: 1.5rem;
+        font-weight: 600;
+        padding: 21.5px 0;
+        text-decoration: none;
+        color: var(--cor-secundaria);
+        font-family: var(--font-secundaria);*/
+        border:0.125rem solid #22D4FD;
+   
+        width: 50%;
+        text-align: center;
+        border-radius: 0.5rem;
+        font-size: 1.5rem;
+        padding: 1.344rem 0;
+        text-decoration: none;
+        color: #F6F6F6;
+        font-family: 'Inter Tight', sans-serif;
+        font-weight: bold;
+        vertical-align: middle;
+    }
+
+
+
 
 /*A mesma classe anterior, porém com efeito "Hover" */
     .apresentacao__links__caixa:hover{
     background-color: var(--cor-hover);
+    }
+
+    .apresentacao__imagem{
+
+        width: 50%;
     }
 
  .rodape{
