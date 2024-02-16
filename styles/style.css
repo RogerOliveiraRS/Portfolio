@@ -38,15 +38,15 @@ body{
 
 .titulo__cabeçalho{
     font-family: 'Montserrat', sans-serif;
-    font-size: 46px;
+    font-size: 2.9rem;
     color:#F6F6F6;
     font-weight: 200;
 }
 
 .cabeçalho__menu{
     display:flex;
-    gap: 80px;
-    padding: 20px 0 0 0
+    gap: 5rem;
+    padding: 1.25rem 0 0 0
  }
 
 .cabeçalho__menu__link{
@@ -55,7 +55,7 @@ body{
     color: #22D4FD;
     font-family: 'Inter Tight', sans-serif;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 1.5rem;
     display:flex;
     flex-direction: right;
     text-decoration: none;
@@ -70,20 +70,20 @@ body{
 }
 
 .apresenta__conteudo{
-    width: 615px;
+    width: 38.5;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 2.5rem;
 }
 
 .apresenta__conteudo__titulo{
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family:'Montserrat', sans-serif;
     font-weight: 60;
 }
 
 .apresenta__conteudo__texto{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: 'Inter Tight', sans-serif;
     color: #F6F6F6;
 }
@@ -93,28 +93,28 @@ body{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 32px;
+    gap: 2rem;
 }
 
 .apresentacao__links__subtitulo{
     font-family: 'Inter Tight', sans-serif;
-    font-size: 27px;
+    font-size: 1.7rem;
     font-weight: 35;
-    padding:21.5px 0;
+    padding:1.344rem 0;
 }
 
 .icon{
     vertical-align: middle;
-    margin-right: 20px;
+    margin-right: 1.25rem;
 }
 
 .apresentacao__links__caixa{
-    border:2px solid #22D4FD;
-    width: 378px;
+    border:0.125rem solid #22D4FD;
+    width: 23.625rem;
     text-align: center;
-    border-radius: 8px;
-    font-size: 24px;
-    padding: 21.5px 0;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    padding: 1.344rem 0;
     text-decoration: none;
     color: #F6F6F6;
     font-family: 'Inter Tight', sans-serif ;
@@ -128,16 +128,16 @@ body{
     }
 
  .rodape{
-    padding:24px;
+    padding:1.5rem;
     color:#000000;
     background-color:#22D4FD;
     text-align: center;
     font-family:'Montserrat', sans-serif;
-    font: 28px;   
+    font-size: 1.75rem;   
  }
    
  .rodape__ancora{
-    margin-left: 50px;
+    margin-left: 3.125rem;
     text-decoration: none;
  }
 
