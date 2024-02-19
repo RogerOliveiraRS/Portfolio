@@ -269,17 +269,15 @@ body{
     }
 }
 
-@media(max-width:796px){
+@media(max-width:829px){
+
     .rodape{
         display: flex;
         flex-direction: column;
 
     }
 }
-
-
-
-    
+   
  @media (max-width:483px){
 
     .titulo__cabeçalho{
@@ -289,7 +287,6 @@ body{
         font-size: 1.7rem;
     }
 
-
     .cabeçalho{
         padding: 5%;
         gap: 50px;
@@ -297,8 +294,7 @@ body{
 
     .cabeçalho__menu{
         justify-content:center;
-        display: flex;
-     
+        display: flex; 
     }
 
     .apresentacao{
@@ -306,7 +302,7 @@ body{
         display: flex;
         justify-content: center;
         align-items: center;    
-}
+    }
 
     .apresentacao__links__txt__caixa{
         padding:10%;
