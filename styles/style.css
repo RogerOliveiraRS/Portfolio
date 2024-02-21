@@ -311,11 +311,9 @@ body{
         justify-content: center;
     }
 
-    @media only screen and (max-width: 836px) {
-        body 
-/*@media(max-width:836px)*/
 
-{
+@media(max-width:836px){
+
     .apresentacao__links__txt__caixa{
         /*padding:10%;
         width:90%;*/
