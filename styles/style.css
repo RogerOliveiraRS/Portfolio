@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@200;300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
-
 /* Definindo variáveis */
 :root  {
     --cor-primaria: #1B1818;
@@ -11,13 +10,11 @@
     --fonte-inter: 'Inter Tight', sans-serif;
     --fonte-Mont: 'Montserrat', sans-serif;
 }
-
 /* resetando o CSS*/
 *{
     margin: 0;
     padding: 0;
 }
-
 
 /* body define propriedades do corpo */
 body{
@@ -25,7 +22,7 @@ body{
     background-color: var(--cor-primaria);
     color: #F6F6F6;
     box-sizing: border-box;
-    padding: 0 0 10% 0;
+    padding: 0 0 5% 0;
     margin: 0 auto !important;
     }
 
@@ -144,10 +141,6 @@ body{
         font-weight: bold;
         vertical-align: middle;
 }
-
-
-
-
 /*A mesma classe anterior, porém com efeito "Hover" */
 .apresentacao__links__txt__caixa:hover{
     background-color: #272727;
@@ -155,17 +148,14 @@ body{
 
     .apresentacao__imagem{
         width: 30%;
-      
-  
         row-gap: 2rem;
-    
     }
 
     .rodape{
         display:flex;
         flex-direction: row;
-        padding:24px;
-        padding:1.5rem;
+        /*padding:24px;*/
+        padding:1rem;
         
         color:#000000;
         background-color:#22D4FD;
