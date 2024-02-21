@@ -25,7 +25,7 @@ body{
     background-color: var(--cor-primaria);
     color: #F6F6F6;
     box-sizing: border-box;
-    padding: 0 0 0 0;
+    padding: 0 0 5% 0;
     margin: 0 auto !important;
     }
 
@@ -154,8 +154,9 @@ body{
 
     .apresentacao__imagem{
         width: 50%;
+  
         row-gap: 2rem;
-        column-gap: 2rem;
+    
     }
 
     .rodape{
@@ -341,6 +342,9 @@ body{
     }
 
     .rodape{
+        /*word-wrap: inherit;*/
+        padding-top: 0% 10% 0% 0%;
+        white-space: nowrap;
         display: flex;
         flex-direction: column;
         margin:0%;
@@ -354,14 +358,11 @@ body{
     .rodape__ancora {
         margin-top: 10px;
 }
+    .texto__link__rodape{
+padding-right: 2rem;
     }
    
  @media (max-width:483px){
-
-    .titulo__cabeçalho{
-        justify-content:center;
-        text-align: center;
-    }
 
 
     .cabeçalho{
@@ -393,7 +394,7 @@ body{
     }
 
     .apresentacao__imagem{
-        width: 100%;
+        width: 70%;
     }
 
     .apresentacao__links__txt__caixa{
@@ -423,7 +424,9 @@ body{
     }
 
     .rodape{
-        word-wrap: inherit;
+        /*word-wrap: inherit;*/
+        padding-top: 0% 10% 0% 0%;
+        white-space: nowrap;
         width: 100%;
         font-size: 1.3rem;
         display: flex;
@@ -439,6 +442,10 @@ body{
         align-items: center;
         justify-content: center;
     }
+
+    /*.texto__link__rodape{
+        padding-right: 2rem;
+    }*/
 
 
 @media (max-width: 408px) {
@@ -483,7 +490,7 @@ body{
         }
     
         .apresentacao__imagem{
-            width: 100%;
+            width: 70%;
         }
     
         .apresentacao__links__txt__caixa{
@@ -513,7 +520,10 @@ body{
         }
     
         .rodape{
-            word-wrap: inherit;
+            /*word-wrap: inherit;*/
+            padding-top: 0% 10% 0% 0%
+            ;
+            white-space: nowrap;
             width: 100%;
             font-size: 1.3rem;
             display: flex;
@@ -529,5 +539,9 @@ body{
             align-items: center;
             justify-content: center;
     }
+
+   /* .texto__link__rodape{
+        padding-right: 2rem;
+    }*/
 
     
