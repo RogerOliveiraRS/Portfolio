@@ -170,7 +170,7 @@ body{
         font-family:'Montserrat', sans-serif;
         /*font: 28px;*/   
         font-size: 1.75rem; 
-        bottom: 50; 
+        bottom:50; 
     }
     
     .rodape__ancora{
@@ -311,8 +311,9 @@ body{
         justify-content: center;
     }
 
-
-@media(max-width:836px)
+    @media only screen and (max-width: 836px) {
+        body 
+/*@media(max-width:836px)*/
 
 {
     .apresentacao__links__txt__caixa{
@@ -355,6 +356,7 @@ body{
     .rodape__ancora {
         margin-top: 10px;
 }
+    }
    
  @media (max-width:483px){
 
